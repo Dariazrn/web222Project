@@ -1,0 +1,32 @@
+/**
+ * Styles for the add-observation.html page 
+ */
+
+ .required:after {
+   content: "* ";
+   color: red;
+}
+#description{
+   width: 600px;
+}
+#latitudeID{
+   color: red;
+}
+#longitudeID{
+   color: red; 
+}
+
+#FieldLatitude{
+   color: black;
+}
+#FieldLongitude{
+   color: black;
+}
+
+#latitudeID::before{
+   content: " "
+}
+
+#longitudeID::before{
+   content: " "
+}
